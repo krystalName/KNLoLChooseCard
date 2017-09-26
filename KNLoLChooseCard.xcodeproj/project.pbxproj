@@ -13,6 +13,8 @@
 		C204C9401F78B077003F3B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C204C93F1F78B077003F3B47 /* Assets.xcassets */; };
 		C204C9431F78B077003F3B47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C204C9411F78B077003F3B47 /* LaunchScreen.storyboard */; };
 		C204C9461F78B077003F3B47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C204C9451F78B077003F3B47 /* main.m */; };
+		C204C9541F78B1B0003F3B47 /* KNLOLFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C204C9531F78B1B0003F3B47 /* KNLOLFlowLayout.m */; };
+		C204C9571F78B487003F3B47 /* KNLOLChooseCardItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C204C9561F78B487003F3B47 /* KNLOLChooseCardItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		C204C9421F78B077003F3B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C204C9441F78B077003F3B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C204C9451F78B077003F3B47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C204C9521F78B1B0003F3B47 /* KNLOLFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNLOLFlowLayout.h; sourceTree = "<group>"; };
+		C204C9531F78B1B0003F3B47 /* KNLOLFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNLOLFlowLayout.m; sourceTree = "<group>"; };
+		C204C9551F78B487003F3B47 /* KNLOLChooseCardItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNLOLChooseCardItem.h; sourceTree = "<group>"; };
+		C204C9561F78B487003F3B47 /* KNLOLChooseCardItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNLOLChooseCardItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		C204C9351F78B077003F3B47 /* KNLoLChooseCard */ = {
 			isa = PBXGroup;
 			children = (
+				C204C94F1F78B0C0003F3B47 /* KNLOL */,
 				C204C9361F78B077003F3B47 /* AppDelegate.h */,
 				C204C9371F78B077003F3B47 /* AppDelegate.m */,
 				C204C9391F78B077003F3B47 /* ViewController.h */,
@@ -69,6 +76,17 @@
 				C204C9451F78B077003F3B47 /* main.m */,
 			);
 			path = KNLoLChooseCard;
+			sourceTree = "<group>";
+		};
+		C204C94F1F78B0C0003F3B47 /* KNLOL */ = {
+			isa = PBXGroup;
+			children = (
+				C204C9521F78B1B0003F3B47 /* KNLOLFlowLayout.h */,
+				C204C9531F78B1B0003F3B47 /* KNLOLFlowLayout.m */,
+				C204C9551F78B487003F3B47 /* KNLOLChooseCardItem.h */,
+				C204C9561F78B487003F3B47 /* KNLOLChooseCardItem.m */,
+			);
+			path = KNLOL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +162,8 @@
 			files = (
 				C204C93B1F78B077003F3B47 /* ViewController.m in Sources */,
 				C204C9461F78B077003F3B47 /* main.m in Sources */,
+				C204C9541F78B1B0003F3B47 /* KNLOLFlowLayout.m in Sources */,
+				C204C9571F78B487003F3B47 /* KNLOLChooseCardItem.m in Sources */,
 				C204C9381F78B077003F3B47 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
